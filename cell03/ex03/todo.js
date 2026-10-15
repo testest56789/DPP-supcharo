@@ -52,7 +52,7 @@ function showTodos() {
 }
 
 newButton.addEventListener("click", () => {
-  const answer = prompt("พิมพ์รายการสิ่งที่ต้องทำ:");
+  const answer = prompt("to do !!:");
 
   if (answer === null || answer.trim() === "") {
     return;
