@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 40px 16px;
+}
+
+main {
+  max-width: 500px;
+  margin: auto;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#ft_list {
+  margin-top: 20px;
+}
+
+#ft_list > div {
+  background: white;
+  padding: 14px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#ft_list > div:hover {
+  background: #fff1f1;
+}
